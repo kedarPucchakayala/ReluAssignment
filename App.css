@@ -1,0 +1,504 @@
+ /* :root {
+
+   Colors: 
+  --unnamed-color-f0f7f7: #F0F7F7;
+  --unnamed-color-88c2bb: #88C2BB;
+  --unnamed-color-cdf1ec: #CDF1EC;
+  --unnamed-color-6f6307: #6F6307;
+  } */
+   body{
+    background-color: #F5F5F5  ;
+    width: 1600px;
+    height: 1800px;
+    color: #000;
+  } 
+  /* header part styling */
+  .header{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    background-color:#F5F5F5;
+  }
+  .title{
+    margin-top: 40px;
+    margin-left: 200px;
+    width: 260px;
+    height: 80px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+  }
+  .logo{
+    margin-top: 13px;
+    margin-left: 35px;
+    width: 89px;
+    height: 34px;
+    text-align: left;
+    font: normal normal normal 32px/44px Mongolian Baiti;
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+  }
+  /* .logo{
+    top: 67px;
+    left: 235px;
+    width: 89px;
+    height: 34px;
+    text-align: left;
+    font: normal normal normal 32px/44px Mongolian Baiti;
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+  } */
+  .search{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 620px;
+    height: 80px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+  }
+  .icon{
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .text{
+    margin-top: 20px;
+  }
+ .filter{
+    text-align: right;
+    margin-left: 319px;
+    align-items: center;
+    margin-top: 20px;
+    height: 26px;
+    margin-bottom: 20px;
+    height: 14px;
+    font: normal normal medium 12px/14px Gilroy;
+    letter-spacing: 0px;
+    color: #9A9A9E;
+    opacity: 1;
+  }
+  .Fil{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 2px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    height: 26px;
+    font: normal normal medium 14px/16px Gilroy;
+    letter-spacing: 0px;
+    color: #303030;
+    opacity: 1;
+
+  }
+  .seller{
+    margin-top: 40px;
+    margin-left: 30px;
+    text-align: center;
+    margin-right: 200px;
+    width: 260px;
+    height: 70px;
+    background: var(--unnamed-color-88c2bb) 0% 0% no-repeat padding-box;
+    background: #88C2BB 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;  
+  }
+  .Sell{
+    margin-top: 30px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    font: normal normal 600 16px/19px Gilroy;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 16px;
+  }
+
+
+  /* left sidebar styling */
+  .left-sidebar{
+     margin-left: 200px;
+    position: fixed;
+    margin-top: 150px; 
+    margin-top: 150px;
+    margin-left: 200px;
+    width: 260px;
+    height: 707px;
+    background:  #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+  
+  }
+  /* .items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-left: 36px;
+   
+  } */
+  .Home{
+    display: flex;
+  }
+  .home-icon{
+    margin-left: 36px;
+    margin-top: 16px;
+    margin-right: 18px;
+  }
+  .home{
+    margin-top: 16px;
+    text-align: left;
+    font: normal normal 600 16px/19px Gilroy;
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+  }
+  .Notifications{
+    display: flex;
+  }
+  .notification-icon{
+    margin-top: 26px;
+    margin-left: 36px;
+    margin-right: 18px;
+
+  }
+  .notification{
+    margin-top: 26px;
+    text-align: left;
+    font: normal normal 600 16px/19px Gilroy;
+    letter-spacing: 0px;
+    color: #8D8D8D;
+    opacity: 1;  
+  }
+  .Shop{
+    display: flex;
+  }
+  .shop-icon{
+    margin-top: 26px;
+    margin-left: 36px;
+    margin-right: 18px;
+    opacity: 1;
+    background: transparent 0% 0% no-repeat padding-box;
+  }
+  .shop{
+    margin-top: 26px;
+    text-align: left;
+    font: normal normal 600 16px/19px Gilroy;
+    letter-spacing: 0px;
+    color: #8D8D8D;
+    opacity: 1;  
+  }
+  .Conversation{
+    display: flex;
+  }
+  .conversation-icon{
+    margin-top: 26px;
+    margin-left: 36px;
+    margin-right: 18px;
+    opacity: 1;
+    background: transparent 0% 0% no-repeat padding-box;
+  }
+  .conversation{
+    margin-top: 26px;
+    text-align: left;
+    font: normal normal 600 16px/19px Gilroy;
+    letter-spacing: 0px;
+    color: #8D8D8D;
+    opacity: 1;  
+  }
+  .Wallet{
+    display: flex;
+  }
+  .wallet-icon{
+    margin-top: 26px;
+    margin-left: 36px;
+    margin-right: 18px;
+    opacity: 1;
+    background: transparent 0% 0% no-repeat padding-box;
+  }
+  .wallet{
+    margin-top: 26px;
+    text-align: left;
+    font: normal normal 600 16px/19px Gilroy;
+    letter-spacing: 0px;
+    color: #8D8D8D;
+    opacity: 1; 
+  }
+  .Subscription{
+    display: flex;
+  }
+  .subscription-icon{
+    margin-top: 26px;
+    margin-left: 36px;
+    margin-right: 18px;
+    opacity: 1;
+    background: transparent 0% 0% no-repeat padding-box;
+  }
+  .subscription{
+    margin-top: 26px;
+    text-align: left;
+    font: normal normal 600 16px/19px Gilroy;
+    letter-spacing: 0px;
+    color: #8D8D8D;
+    opacity: 1; 
+  }
+  .Myprofile{
+    display: flex;
+  }
+  .myprofile-icon{
+    margin-top: 26px;
+    margin-left: 36px;
+    margin-right: 18px;
+    opacity: 1;
+    background: transparent 0% 0% no-repeat padding-box;
+  }
+  .myprofile{
+    margin-top: 26px;
+    text-align: left;
+    font: normal normal 600 16px/19px Gilroy;
+    letter-spacing: 0px;
+    color: #8D8D8D;
+    opacity: 1;
+  }
+  .Settings{
+    display: flex;
+  }
+  .settings-icon{
+    margin-top: 26px;
+    margin-left: 36px;
+    margin-right: 18px;
+    opacity: 1;
+    background: transparent 0% 0% no-repeat padding-box;
+  }
+  .settings{
+    margin-top: 26px;
+    text-align: left;
+    font: normal normal 600 16px/19px Gilroy;
+    letter-spacing: 0px;
+    color: #8D8D8D;
+    opacity: 1;
+  }
+  .Logout{
+    display: flex;
+  }
+  .logout-icon{
+    margin-top: 150px;
+    margin-left: 36px;
+    margin-right: 18px;
+    opacity: 1;
+    background: transparent 0% 0% no-repeat padding-box;
+  }
+  .logout{
+       margin-top: 150px;
+       text-align: left;
+       font: normal normal 600 16px/19px Gilroy;
+       letter-spacing: 0px;
+       color: #88C2BB;
+       opacity: 1;
+  }
+
+
+  /* content styling... */
+  .content-1{
+    overflow-y: auto;
+    
+  }
+
+  .box-1{
+   top: 150px;
+   left: 490px;
+   width: 620px;
+   
+   height: 600px;
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+   border-radius: 10px;
+   opacity: 1;
+   position: absolute;
+   
+
+  }
+  .pic{
+    display: flex;
+    text-align: center;
+    background:transparent 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+  }
+  .pic1{
+    margin-top: 30px;
+    margin-left: 30px;
+
+  }
+  .img-name{
+  margin-top: 30px;
+  margin-left: 5px;
+  text-align: left;
+  font: normal normal 600 20px/24px Gilroy;
+  letter-spacing: 0px;
+  color: #101010;
+  opacity: 1;
+
+  }
+  .thewallart{
+    margin-top: 60px;
+    margin-left: 5px;
+    text-align: left;
+    font: normal normal medium 14px/16px Gilroy;
+    letter-spacing: 0px;
+    color: #8D8D8D;
+    opacity: 1;
+    font-size: 14px;
+  }
+  .para{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 556px;
+    text-align: left;
+    font: normal normal medium 14px/21px Gilroy;
+    letter-spacing: 0px;
+    color: #101010;
+  }
+  .read-more{
+    font: normal normal medium 14px/21px Gilroy;
+    letter-spacing: 0px;
+    color: #FF5E8A;
+  }
+  .pic3{
+    width: 560px;
+    height: 306px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background: transparent 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+  }
+  .white-heart{
+    margin-top: 23.52px;
+    margin-left: 512.24px;
+    margin-bottom: 259.25px;
+    margin-right: 24.24px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .icons{
+     display: flex;
+  }
+  .heart{
+    margin-left: 34.24px;
+    margin-top: 23.52px;
+    height: 22px;
+  }
+  .value{
+    margin-left: 5px;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 23.52px;
+    height: 22px;
+  }
+  .message{
+    margin-left: 34.24px;
+    margin-top: 23.52px;
+    height: 22px;
+  }
+  .shareit{
+    margin-left: 34.24px;
+    margin-top: 23.52px;
+    height: 22px;
+  }
+
+
+
+  /* RightSidebar styling... */
+  .right-sidebar{
+    
+    margin-top:53px;
+    margin-left: 1140px;
+    position: fixed;
+    
+    
+  }
+  .title-content{
+    display: flex;
+    gap: 25px;
+  }
+
+  .artist{
+    
+    width: 46px;
+    height: 80px;
+    text-align: left;
+    font:  normal normal 600 16px/19px Gilroy;
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+  }
+  .photograph{
+    
+    width: 110px;
+    height: 19px;
+    text-align: left;
+    color: #8D8D8D;
+    font: normal normal 600 16px/19px Gilroy;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+  .small-img-1{
+    margin-top: 2px;
+    font-size: 16px;
+    color:#FFFFFF ;
+    width: 244px;
+    height: 126px;
+    opacity: 1;
+    background: transparent url('assets/back1.png') 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+  }
+  /* .small-img-1{
+    
+    margin-left: 14px;
+    text-align: left;
+    font: normal normal 600 16px/19px Gilroy;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;   
+    font-size: 16px;
+    margin-right: 15px; */
+    
+    /* background: transparent url('assets/pic4.png') 0% 0% no-repeat padding-box; */
+  
+  .bg-text{
+    font-size: 16px;
+    margin-left: 22px;
+ 
+    
+  }
+  
+.wildwith{
+  font-size: 12px;
+  font: normal normal medium 12px/14px Gilroy;
+  letter-spacing: 0px;
+  margin-left: 22px;
+  color: #FFFFFF;
+ 
+  opacity: 1;
+}
+.bg-image-{
+  width: 244px;
+  height: 126px;
+
+}
+.small-img-3{
+  background: transparent url('assets/pic14.png.png') 0% 0% no-repeat padding-box;
+  margin-top: 30px;
+  width: 244px;
+  height: 126px;
+  margin-left: 10px;
+  
+}
+
